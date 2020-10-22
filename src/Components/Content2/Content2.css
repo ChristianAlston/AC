@@ -1,0 +1,38 @@
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .content2{
+        background-color: orangered;
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+
+    .box{
+        text-align: center;
+        width: 80%;
+    }
+
+    .hero{
+        color: white;
+        line-height: 45px;
+    }
+   
+    .listofcompanies{
+        height: 40vh;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .companies{
+        text-align: center;
+        list-style: none;
+    }
+    .companies > li{
+        color: white;
+        font-size: 22px;
+        margin: 12px 0;
+        font-weight: bold;
+    }
+}

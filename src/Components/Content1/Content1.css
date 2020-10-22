@@ -1,0 +1,54 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    @keyframes appear{
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+            transform: translateY(-10%);
+        }
+    }
+
+    .content1{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .over{
+        height: 100vh;
+        width: 100%;
+        /* background-color: rgb(75, 75, 75); */
+        background-color: orangered;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .over>video{
+        display: none;
+    }
+
+    .introbox{
+        position: absolute;
+        top: 35%;
+        width: 80%;
+        z-index: 10;
+        padding: 0 20px;
+    }
+
+    .serviceintro{
+         color: white;
+         width: 10%;
+         font-size: 65px;
+         line-height: 60px;
+    }
+
+    .subintro{
+        color: white;
+    }
+
+}

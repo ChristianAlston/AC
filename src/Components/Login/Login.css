@@ -1,0 +1,125 @@
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .loginwrap {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .imagewrapper {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .heroimage {
+        height: 100%;
+        width: 100%;
+        opacity: 0.8;
+        background-image: url("../Login/pic.jpg");
+        background-size: cover;
+        background-color: rgb(179, 179, 179);
+        background-blend-mode: multiply;
+        background-position: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topblock {
+        background-color: rgb(5, 7, 32);
+        height: 10%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        opacity: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .herotitlewrapper {
+        text-align: center;
+    }
+
+    .herotitle {
+        color: white;
+        opacity: 1;
+        text-transform: capitalize;
+        font-size: 17px;
+        letter-spacing: 1px;
+        /* font-family: "Great Vibes"; */
+    }
+
+    span {
+        color: orangered;
+    }
+
+    .slogan {
+        color: white;
+
+    }
+
+    .formwrapper {
+        height: 47%;
+        opacity: 1;
+        margin-bottom: 20px;
+        position: absolute;
+        bottom: 10%;
+        text-align: center;
+        background-color: transparent;
+        padding: 10px 0;
+    }
+
+    .form {
+        text-align: center;
+    }
+
+    .into {
+        font-weight: 200;
+        color: white;
+    }
+
+    input {
+        background-color: transparent;
+        border: 1.5px solid rgb(218, 218, 218);
+        height: 30px;
+        padding: 5px;
+        width: 90%;
+        color: white;
+        margin: 12px 0;
+    }
+
+    input::placeholder {
+        color: rgb(255, 255, 255);
+    }
+
+    .login {
+        background-color: #d2b48c;
+        border: none;
+        height: 45px;
+        width: 94%;
+        font-weight: 300;
+    }
+
+    .create {
+        color: lightgrey;
+        margin: 20px 0 10px 0;
+    }
+
+    .signup {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        height: 45px;
+        width: 94%;
+    }
+}

@@ -1,0 +1,39 @@
+.burger {
+    min-height: 25px;
+    min-width: 25px;
+    max-height: 30px;
+    max-width: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+    transition: .2s ease-in-out;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+.line1 {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 2px;
+    margin: 0;
+}
+
+.line2 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.line3 {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 2px;
+    margin: 0;
+}

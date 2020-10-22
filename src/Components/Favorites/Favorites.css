@@ -1,0 +1,59 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .favpage {
+        height: 100vh;
+        overflow: scroll;
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .your {
+        color: white;
+        text-align: center;
+
+    }
+
+    .favoritebox {
+        height: 70px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .circle {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(4, 8, 63);
+        border: black 1px solid;
+    }
+
+    .businessname {
+        color: white;
+        margin: auto 0;
+    }
+
+
+    .removeitem {
+        background-color: white;
+        border: none;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+    }
+
+    .removeall {
+        margin: 20px 0 0 0;
+        background-color: white;
+        color: orangered;
+        border: none;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}

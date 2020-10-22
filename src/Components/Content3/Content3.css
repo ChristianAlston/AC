@@ -1,0 +1,16 @@
+.content3{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+.here{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+

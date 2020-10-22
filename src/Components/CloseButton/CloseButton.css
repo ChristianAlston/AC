@@ -1,0 +1,7 @@
+.close {
+    color: lightgrey;
+    font-size: 30px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}

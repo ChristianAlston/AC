@@ -1,0 +1,33 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .card {
+        height: 50vh;
+        width: 85%;
+        border-radius: 10px;
+        margin: 30px auto;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex: 0 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logoOf {
+        height: 20vh;
+        width: 20vh;
+        padding: 30px;
+        border-radius: 50%;
+        border: 3px solid white;
+        background-color: rgb(5, 24, 85);
+    }
+
+    .servicename {
+        color: white;
+    }
+
+    .servicedescription {
+        color: white;
+        font-weight: 300;
+    }
+}
